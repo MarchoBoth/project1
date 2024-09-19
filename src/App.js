@@ -1,6 +1,7 @@
 import logo from './asset/logokoding1.jpg';
 import './App.css';
 import LoginButton from './componen/button';
+import JsFundamental from './componen/jsFundamental';
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         </div>
         <h2>Selamat Datang di React App pertama saya</h2>
         <i>Copyright 2022</i>
+      </div>
+      <div>
+        <JsFundamental></JsFundamental>
       </div>
     </div>
   );
