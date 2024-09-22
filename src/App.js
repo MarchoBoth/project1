@@ -2,7 +2,8 @@ import logo from './asset/logokoding1.jpg';
 import './App.css';
 import LoginButton from './componen/button';
 import JsFundamental from './componen/jsFundamental';
-
+import { JsEs6 } from './componen/JsEs6';
+import { Assignment2 } from './componen/assignment2';
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,9 @@ function App() {
         <i>Copyright 2022</i>
       </div>
       <div>
-        <JsFundamental></JsFundamental>
+        <JsFundamental />
+        <JsEs6 />
+        <Assignment2 />
       </div>
     </div>
   );
